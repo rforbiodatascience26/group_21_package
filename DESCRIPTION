@@ -6,19 +6,19 @@ Authors@R: c(
     person(
       "Emil", "Sommer Bennetzen",
       email = "s264037@dtu.dk",
-      role = c("aut", "cre")
+      role = c("aut", "cre"),
     person(
       "Mathilde", "Picard",
       email = "s261782@dtu.dk",
-      role = c("aut", "cre")
+      role = c("aut", "cre"),
     person(
       "Tóki", "Janusarson Strøm",
       email = "s264038@dtu.dk",
-      role = c("aut", "cre")
+      role = c("aut", "cre"),
     person(
       "Bertram", "Bremerskov Broe",
       email = "s266178@dtu.dk",
-      role = c("aut", "cre")
+      role = c("aut", "cre"),
     person(
       "María", "Gómez",
       email = "s261697@dtu.dk",
@@ -33,3 +33,6 @@ Suggests:
     knitr,
     rmarkdown
 VignetteBuilder: knitr
+Depends: 
+    R (>= 3.5)
+RoxygenNote: 7.3.2
