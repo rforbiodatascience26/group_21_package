@@ -2,3 +2,5 @@
 
 export(base_replace)
 export(random_dna)
+export(rna_codons)
+export(translate)

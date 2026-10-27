@@ -7,9 +7,7 @@
 #' @export
 #'
 #' @examples
-#' rna_condons("AUGGCUUAA", 1)
-#'
-#' returns: ("AUG", "GCU", "UAA")
+#' rna_codons("AUGGCUUAA", 1)
 #'
 rna_codons <- function(rna_sequence, start = 1){
   sequence_length <- nchar(rna_sequence)
