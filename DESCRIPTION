@@ -3,27 +3,21 @@ Type: Package
 Title: Central dogma
 Version: 0.1.0
 Authors@R: c(
-    person(
-      "Emil", "Sommer Bennetzen",
+    person("Emil", "Sommer Bennetzen",
       email = "s264037@dtu.dk",
-      role = c("aut", "cre"),
-    person(
-      "Mathilde", "Picard",
+      role = c("aut", "cre")),
+    person("Mathilde", "Picard",
       email = "s261782@dtu.dk",
-      role = c("aut", "cre"),
-    person(
-      "Tóki", "Janusarson Strøm",
+      role = "aut"),
+    person("Tóki", "Janusarson Strøm",
       email = "s264038@dtu.dk",
-      role = c("aut", "cre"),
-    person(
-      "Bertram", "Bremerskov Broe",
+      role = "aut"),
+    person("Bertram", "Bremerskov Broe",
       email = "s266178@dtu.dk",
-      role = c("aut", "cre"),
-    person(
-      "María", "Gómez",
+      role = "aut"),
+    person("María", "Gómez",
       email = "s261697@dtu.dk",
-      role = c("aut", "cre")
-    )
+      role = "aut")
   )
 Description: Central dogma functions
 License: MIT + file LICENSE
@@ -31,8 +25,10 @@ Encoding: UTF-8
 LazyData: true
 Suggests: 
     knitr,
-    rmarkdown
+    rmarkdown,
+    testthat (>= 3.0.0)
 VignetteBuilder: knitr
 Depends: 
     R (>= 3.5)
 RoxygenNote: 7.3.2
+Config/testthat/edition: 3
