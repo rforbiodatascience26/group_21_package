@@ -2,8 +2,7 @@
 % Please edit documentation in R/base_replace.R
 \name{base_replace}
 \alias{base_replace}
-\title{base_replace
-Takes a sequence of bases and replaces every instance of "T" with "U"}
+\title{base_replace}
 \usage{
 base_replace(seq1)
 }
@@ -14,7 +13,6 @@ base_replace(seq1)
 Sequence with U's instead of T's
 }
 \description{
-base_replace
 Takes a sequence of bases and replaces every instance of "T" with "U"
 }
 \examples{

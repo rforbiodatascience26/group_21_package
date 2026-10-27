@@ -1,4 +1,5 @@
 #' base_replace
+#'
 #' Takes a sequence of bases and replaces every instance of "T" with "U"
 #'
 #' @param seq1 Sequence to have T's converted to U's
