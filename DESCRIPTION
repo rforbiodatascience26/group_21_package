@@ -1,0 +1,19 @@
+Package: twentyone21
+Type: Package
+Title: Central dogma
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Emil", "Sommer Bennetzen",
+      email = "s264037@dtu.dk",
+      role = c("aut", "cre")
+    )
+  )
+Description: Central dogma functions
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
