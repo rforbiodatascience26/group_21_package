@@ -19,7 +19,7 @@ Authors@R: c(
       email = "s261697@dtu.dk",
       role = "aut")
   )
-Description: Implementation of functions for central dogma in R.
+Description: Implementation of functions for the central dogma in R.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
