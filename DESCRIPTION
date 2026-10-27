@@ -24,7 +24,6 @@ Authors@R: c(
       email = "s261697@dtu.dk",
       role = c("aut", "cre"))
     )
-
 Description: Central dogma functions
 License: MIT + file LICENSE
 Encoding: UTF-8
