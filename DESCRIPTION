@@ -10,19 +10,19 @@ Authors@R: c(
     person(
       "Mathilde", "Picard",
       email = "s261782@dtu.dk",
-      role = c("aut", "cre")),
+      role = "aut"),
     person(
       "Tóki", "Janusarson Strøm",
       email = "s264038@dtu.dk",
-      role = c("aut", "cre")),
+      role = "aut"),
     person(
       "Bertram", "Bremerskov Broe",
       email = "s266178@dtu.dk",
-      role = c("aut", "cre")),
+      role = "aut"),
     person(
       "María", "Gómez",
       email = "s261697@dtu.dk",
-      role = c("aut", "cre"))
+      role = c"aut)
     )
 Description: Central dogma functions
 License: MIT + file LICENSE
