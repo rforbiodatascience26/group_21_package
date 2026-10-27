@@ -1,0 +1,76 @@
+---
+title: "twentyone21"
+output: rmarkdown::pdf_document
+vignette: >
+  %\VignetteIndexEntry{twentyone21}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+**GitHub repository:** https://github.com/rforbiodatascience26/group_21_package
+
+## Description of the package
+
+This package is used to illustrate the central dogme of molecular biology. DNA is transcribed into RNA which is translated into proteins (amino acid sequences).
+This package is composed of 5 different functions which represents the five steps of this dogme. Those functions will be described one after another in the following steps.
+
+## Import our library 
+
+```{r}
+devtools::document()   # prepare documentation and namespace
+devtools::install()    # install the package on the R library
+library(twentyone21)   # load the package
+```
+
+## Function 1 = random_dna()
+
+Generates a random dna sequence of a given length
+
+```{r}
+dna <- random_dna(30)
+dna
+```
+
+## Function 2 = base_replace()
+
+Transcription of the random DNA sequence into RNA
+
+```{r}
+rna <- base_replace(dna)
+rna
+```
+
+## Function 3 = rna_codons
+
+Translation of RNA into codons.
+
+```{r}
+codons = rna_codons(rna)
+codons
+```
+
+## Function 4 = 
+
+Turn codons into amino acids.
+
+```{r}
+amino_acids =
+amino_acids
+```
+
+## Function 5 =
+
+```{r}
+
+```
+
+## Discussion
+
+This package could be reused easily with some functions. 
+For example if you have a long DNA sequence that you want to transcribed and translate you can use the functions 2 to 5 without creating any others. 
+
+However, we should be careful with the use of dependencies because of the name's conflicts, the slow loading and with one missing the dependencies don't work anymore because they rely on each other.
+
+We could also upload other functions such as c_dna to find the complementary strand.
+
+To be continued...
