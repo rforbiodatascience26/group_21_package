@@ -1,6 +1,6 @@
 #' Plot the frequency of amino acids
 #'
-#' @param Amino acid sequence
+#' @param aa_sequence Amino acid sequence#'
 #'
 #' @returns Bar plot of amino acid frequencies from the given amino acid sequence
 #'

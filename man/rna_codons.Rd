@@ -17,9 +17,3 @@ Codons
 \description{
 Converting RNA sequence to Codons
 }
-\examples{
-rna_condons("AUGGCUUAA", 1)
-
-returns: ("AUG", "GCU", "UAA")
-
-}

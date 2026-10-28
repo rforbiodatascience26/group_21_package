@@ -40,7 +40,7 @@ rna <- base_replace(dna)
 rna
 ```
 
-## Function 3 = rna_codons
+## Function 3 = rna_codons()
 
 Translation of RNA into codons.
 
@@ -49,19 +49,22 @@ codons = rna_codons(rna)
 codons
 ```
 
-## Function 4 = 
+## Function 4 = translate()
 
 Turn codons into amino acids.
 
 ```{r}
-amino_acids =
+amino_acids = translate(codons)
 amino_acids
 ```
 
-## Function 5 =
+## Function 5 = aa_counts_plot()
+
+Return ggplot bar chart showing the frequency of each amino acid.
 
 ```{r}
-
+frequency = aa_counts_plot(amino_acids)
+frequency
 ```
 
 ## Discussion
